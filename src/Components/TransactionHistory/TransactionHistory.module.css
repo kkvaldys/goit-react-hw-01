@@ -1,0 +1,26 @@
+.table {
+  width: 600px;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.transactionName {
+  background-color: #212121;
+}
+
+.transactionText {
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.transactionUser {
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+
+.transactionItem:nth-child(even) {
+  background-color: darkgray;
+}
